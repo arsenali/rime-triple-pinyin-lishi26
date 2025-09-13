@@ -6,7 +6,7 @@
 
 ## 安装
 
-本方案是 [李氏三拼](https://github.com/arsenali/rime-triple-pinyin-lssp) 系列方案之一，依赖于李氏三拼基本方案，安装本方案前请先安装 ℞ `rime-triple-pinyin-lssp`。
+本方案是 [李氏三拼](https://github.com/arsenali/rime-triple-pinyin-lssp) 系列方案之一，依赖于李氏三拼基础方案，安装本方案前请先安装 ℞ `rime-triple-pinyin-lssp`。
 
 各平台安装方法同李氏三拼，请参考：
 
