@@ -4,15 +4,15 @@
 
 本方案是26键三拼方案，26键内实现三码输入一个带调音节，无重复音节，主要适用于实体键盘打字，编码方式是“声母+韵母+声调”，第三码是声调码，使用oeway五键输入五声调，可省略声调成为普通双拼方案。
 
-## 安装
+QQ群：[150478288](https://jq.qq.com/?_wv=1027&k=5wf1uTQ)
 
-本方案是 [李氏三拼](https://github.com/arsenali/rime-triple-pinyin-lssp) 系列方案之一，依赖于李氏三拼基础方案，安装本方案前请先安装 ℞ `rime-triple-pinyin-lssp`。
+<br>
 
-各平台安装方法同李氏三拼，请参考：
+## 下载与安装
 
-[安卓版和windows版](https://github.com/arsenali/rime-triple-pinyin-lssp/wiki/安卓版和windows版)
+本方案是 [李氏三拼](https://github.com/arsenali/rime-triple-pinyin-lssp) 系列方案之一，方案所需全部文件已打包，可在[网盘](http://lssp.ysepan.com/)或QQ群([150478288](https://jq.qq.com/?_wv=1027&k=5wf1uTQ))下载补丁包直接导入。
 
-[苹果版](https://github.com/arsenali/rime-triple-pinyin-lssp/wiki/苹果版)
+安装方案可参考【[下载与安装](https://github.com/arsenali/rime-triple-pinyin-lssp#下载与安装)】，详见【[安装方法](https://github.com/arsenali/rime-triple-pinyin-lssp/wiki/安装方法)】。
 
 <br>
 
@@ -41,15 +41,13 @@ _截图使用的是“光明·黑暗”主題，“明图”配色_
 
 本方案在自然码双拼基础上作适当调整，对部分音节进行拆分，音节拆分参考了注音逻辑（详见[键位排列](https://github.com/arsenali/rime-triple-pinyin-lishi26/wiki#键位排列)），声调编码参考了许氏注音，最终声母使用21键，韵母使用26键，声调使用5键，声母、声调区相互隔离，故省略声调不会像许氏注音一样造成重复音节。声调码是可选项，可输可不输，相当于直接辅助码。
 
-另外，可连续输入笔画码筛选去重，用大写的“HSPNZ”输入“横、竖、撇、捺、折”，类似于搜狗拼音，笔画码相当于间接辅助码。
+另外，可连续输入笔画码筛选去重，用大写的“HSPNZ”输入“横、竖、撇、捺、折”，用法类似于搜狗拼音，笔画码相当于间接辅助码。
 
 <br>
 
 ## 五类汉字编码
 
-本方案和李氏三拼方案一样可输入原码、全拼、拼音、注音、国罗等五类汉字编码，具体请参考：
-
-[五类汉字编码](https://github.com/arsenali/rime-triple-pinyin-lssp/wiki#五类汉字编码)
+本方案和李氏三拼方案一样可输入原码、全拼、拼音、注音、国罗等五类汉字编码，具体请参考[五类汉字编码](https://github.com/arsenali/rime-triple-pinyin-lssp/wiki#五类汉字编码)。
 
 
 ## 注音键盘
@@ -73,26 +71,10 @@ _截图使用的是“光明·黑暗”主題，“明图”配色_
 
 ---
 
-## 说明和下载
+## 说明
 
 主题文件中自带简单教程，可点击“帮助”查看。
 
 点击“反查”可使用拼音或笔画进行编码反查。
 
-默认只载入地球拼音词库，加载“八股文”语言模型，如需使用万象等词库需自行下载并在词库列表文件terra_pinyin.extended.dict.yaml中启用，使用其他语言模型请修改grammar.custom.yaml文件。
-
-下载地址：http://www.lssp.ysepan.com/
-
-QQ群：[150478288](https://jq.qq.com/?_wv=1027&k=5wf1uTQ)
-
-
 <br>
-
-## 收藏和克隆
-
-### &#8627; Stargazers
-[![Stargazers repo roster for @arsenali/rime-triple-pinyin-lishi26](https://reporoster.com/stars/arsenali/rime-triple-pinyin-lishi26)](https://github.com/arsenali/rime-triple-pinyin-lishi26/stargazers)
-
-### &#8627; Forkers
-[![Forkers repo roster for @arsenali/rime-triple-pinyin-lishi26](https://reporoster.com/forks/arsenali/rime-triple-pinyin-lishi26)](https://github.com/arsenali/rime-triple-pinyin-lishi26/network/members)
-
